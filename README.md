@@ -36,3 +36,9 @@ In a browser:
 ```
 localhost:8081
 ```
+
+Shorthand provided scripts in package.json:
+```
+npm run bundle
+npm run watch
+```

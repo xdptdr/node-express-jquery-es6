@@ -1,0 +1,24 @@
+{
+  "name": "node-express-jquery-es6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"bundle": "browserify app/app.js -t babelify -o public/app.js",
+	"watch": "watchify -d app/app.js -t babelify -o public/app.js"
+  },
+  "author": "xdptdr",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "jquery": "^3.1.1",
+    "multer": "^1.2.1"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.1.4",
+    "babelify": "^7.3.0"
+  }
+}
