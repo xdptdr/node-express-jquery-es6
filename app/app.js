@@ -1,7 +1,7 @@
 let $ = require('jquery');
 
 $(document).ready(function(){
-    $("div").click(function(){
+    $("p").click(function(){
         $(this).hide();
     });
 });
